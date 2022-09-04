@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: url(./photos/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+  padding: 1vw ;
+  background-color: rgba(21, 78, 116, 0.402);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.nav-items ul {
+  display: flex;
+}
+.nav-items {
+  border-bottom: 2px solid white;
+  padding: 1vw 0;
+}
+
+.item {
+  margin-left: 3vw;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+
+.item:hover {
+  color: rgb(104, 215, 215);
+  cursor: pointer;
+}
+
+.nav-end {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 3vw;
+
+}
+
+.nav-end img {
+  width: 30px;
+ 
+}
+
+
+.phone-no {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+  margin-left: 1vw;
+}
+.phone-no li:hover {
+  color: aqua;
+}
+
+.menu{
+    display: none;
+}
+
+/* ///////////////////  MAIN ///////////////////// */
+.main {
+  width: 80%;
+  margin: auto;
+  
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.567);
+  width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7vw;
+  padding: 5vw 5vw;
+  border-radius: 30px;
+
+}
+.cloud {
+  width: 70px;
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 0.5vw;
+}
+
+.card p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vw;
+  padding: 2vw;
+}
+
+.main-heading h1 {
+  font-size: 4rem;
+  background-color: rgba(21, 78, 116, 0.402);
+  padding: .5em;
+  border-radius: 30px;
+}
+
+.main-button {
+  margin-top: 3vw;
+  padding: 2vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.567);
+  border: 2px solid white;
+  padding: 1vw 3vw;
+
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card2 {
+  background-color: rgba(0, 0, 0, 0.567);
+  width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw 5vw;
+  margin-bottom: -5vw;
+  border-radius: 30px;
+
+}
+
+.bulb {
+  width: 60px;
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 0.5vw;
+}
+
+.card2 p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+
+@media (max-width:1000px) {
+    .menu{
+        display: block;
+    }
+    .nav-items{
+      display: none;
+    }
+    .main-heading{
+      text-align: center;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items:center ;
+    }
+    .main-button{
+      text-align: center;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items:center ;
+      justify-content: space-between;
+    }
+    .bolb{
+      margin-bottom: 3vw;
+    }
+    a {
+    text-decoration: none;
+    border-radius: 50px;
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    .card2 {
+      background-color: rgba(0, 0, 0, 0.567);
+      width: 250px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 5vw 5vw;
+      margin-bottom: 3vw;
+    }
+}
