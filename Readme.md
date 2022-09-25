@@ -8,6 +8,6 @@ As a beginner project, i have lerned lots of new CSS  concepts like- position di
 ## [***Project-live-Link-->***](https://interiordesignerpage.netlify.app/) 
 
 ## <span style="color:red"> **Website Preview-->**</span>
-![Home-Page](./photos/Thumbnail.png)
+![Home-Page](./photos/thumbnail.png)
 
 ## Thank you for visiting.. also ckeck-out my next Projects & please share your valuable Feedback 👍👍    
